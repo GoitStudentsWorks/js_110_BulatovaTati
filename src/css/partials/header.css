@@ -24,6 +24,7 @@
   right: 0;
   width: 100vw;
   height: 100vh;
+  z-index: -1;
   background-image: url('/images/header/bcg1.png');
   background-repeat: no-repeat;
   background-position: center top 16px;

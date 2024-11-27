@@ -17,6 +17,18 @@
   transition: transform 250ms ease, opacity 250ms ease, visibility 250ms ease;
 }
 
+.navigation::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/images/header/bcg1.png');
+  background-repeat: no-repeat;
+  background-position: center top 16px;
+}
+
 .header-logo {
   font-family: 'Impact', sans-serif;
   padding: 20px 0;

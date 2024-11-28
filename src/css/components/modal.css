@@ -6,7 +6,7 @@
   letter-spacing: 0.03em !important;
   text-transform: uppercase !important;
   text-align: center !important;
-  color: #00b068;
+  color: var(--accent-cl);
   margin-bottom: 16px !important;
 }
 
@@ -17,12 +17,15 @@
   line-height: 1.5 !important;
   letter-spacing: 0.03em !important;
   text-align: center !important;
-  color: #292929;
+  color: var(--main-cl) !important;
 }
 
 .toastStyle .iziToast-body {
   padding: 32px 48px !important;
   margin: 0 !important ;
+  border-radius: 16px !important;
+  border: 1px solid #e4e5e6;
+  background-color: var(--main-bcg) !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -50,7 +53,7 @@
 
 .toastStyle .iziToast-close:before {
   content: '×';
-  color: #292929;
+  color: var(--main-cl) !important;
   font-size: 25px;
 }
 

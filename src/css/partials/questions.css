@@ -146,17 +146,11 @@ padding-right: 100px;
       width: 520px;
     }
     
-    .faq-content{
-      display: flex;
-      flex-direction: row;
-    }
-    
     .faq-content {
       display: flex;
+      flex-direction: row;
       align-items: flex-start;
       justify-content: space-between;
-      max-width: 1280px;
-      margin: 0 auto;
     }
     
     .faq-list{
@@ -170,13 +164,14 @@ padding-right: 100px;
       justify-content: space-between;
     }
 
-    .faq {
+    .faq-content {
         position: relative;
         background-image: url('/images/questions/decor-bg-4-min.png'); 
-        background-size: contain;
+        /* background-size: contain; */
         background-repeat: no-repeat;
         background-size: auto;
         background-position: bottom left;
+       
       }
     }
         
